@@ -27,7 +27,7 @@ func main() {
 			continue
 		}
 
-		fmt.Println(*encoded)
+		fmt.Printf("%s\t%s\n", line, *encoded)
 	}
 }
 
