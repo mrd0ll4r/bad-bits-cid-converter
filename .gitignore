@@ -19,3 +19,12 @@
 
 # Go workspace file
 go.work
+
+# Goland directory
+/.idea
+
+# Vim undo files
+*.un~
+
+# Build artifacts
+/out
