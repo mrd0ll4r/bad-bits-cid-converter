@@ -1,3 +1,5 @@
+// Package main implements the binary to convert from CIDs or IPFS paths to
+// the format expected by the bad bits deny list.
 package main
 
 import (
