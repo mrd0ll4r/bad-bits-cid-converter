@@ -44,7 +44,7 @@ jobs:
           exit 1
         fi
     - name: Build
-      run: go build -v -o bad-bits-cid-converter cmd/bad-bits-cid-converter/
+      run: go build -v -o bad-bits-cid-converter ./cmd/bad-bits-cid-converter/
     - name: Build Docker image and export binaries
       run: ./build-in-docker.sh
 
